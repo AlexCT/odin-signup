@@ -20,33 +20,44 @@
         <div id="text">
             <p>This is not a real online service! You know you need something like this 
             in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started.</p>
+            <br>
             <p>You <em>know</em> you want to.</p>
         </div>
         <fieldset id="form">
-            <legend>Let's Do This!</legend>
-
-            <label for="firstName">First Name:</label>
+            <legend>Let's Do This!</legend> 
+            <div>
+            <label for="firstName">FIRST NAME</label>
             <input type="text" id="firstName" placeholder = "Bob..." name="firstname">
-
-            <label for="lastName">Last Name:</label>
+            </div>
+            
+            <div>
+            <label for="lastName">LAST NAME</label>
             <input type="text" id="lastName" placeholder = "Smith..." name="lastname">
+            </div>
 
-            <label for="user_email">*Email Address:</label>
+            <div>
+            <label for="user_email">*EMAIL ADDRESS</label>
             <input type="email" id="user_email" name="email" placeholder="you@example.com">
+            </div>
 
-            <label for="phone">Phone Number:</label>
+            <div>
+            <label for="phone">PHONE NUMBER</label>
             <input type="number" id="phone" name="phone">
+            </div>
 
-            <label for="user_password">Password:</label>
+            <div>
+            <label for="user_password">PASSWORD</label>
             <input type="password" id="user_password" name="password" required>
+            </div>
 
-            <label for="confirm_password">Confirm Password:</label>
+            <div>
+            <label for="confirm_password">CONFIRM PASSWORD</label>
             <input type="password" id="confirm_password" name="confirmpassword" required>
-
+            </div>
 
         </fieldset>
-        <button id="createbtn">Button</button>
-        <div id="login">Already have an account? Log In</div>
+        <button id="createbtn">Create Account</button>
+        <div id="login">Already have an account? <a href="">Log In</a></div>
     </div>
 </body>
 </html>
