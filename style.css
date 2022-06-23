@@ -10,17 +10,17 @@ body {
 
 #sideimage {
     background-color: darkgreen;
-    height: 100vh;
+    background-image: url("./images/stream.jpg");
+    height: 970px;
     width: 33vw;
     display: flex;
     flex-direction: row;
-    align-items: center;
 }
 
 #logobox {
     display: flex;
     flex-direction: row;
-
+    margin-top: 200px;
     height: 100px;
     width: 33vw;
     background-color: gray;
@@ -29,18 +29,24 @@ body {
     justify-content: center;
 }
 
+#logo img {
+    height: 72px;
+    width: auto;
+}
+
 #name {
     color: aliceblue;
+    margin-left: 10px;
     font-size: 72px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 #main {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    background-color: white;
-    height: 100vh;
+    background-color: whitesmoke;
+    height: 970px;
     width: 67vw;
 
 }
@@ -51,12 +57,24 @@ body {
     font-weight: bold;
     padding: 50px;
     margin-top: 100px;
+    background-color: whitesmoke;
 }
 
 fieldset {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
     width: 67vw;
+    border: none;
+    box-shadow: 0px 10px 5px lightgray;
+    background-color: white;
+}
+
+fieldset div {
+    margin-left: 50px;
+    margin-right: 25px;
+    margin-top: 15px;
+
 }
 
 legend {
@@ -85,9 +103,6 @@ fieldset input {
     border-radius: 5px;
 }
 
-
-/* Changes border color based on valid/invalid input */
-
 #user_password:invalid,#confirm_password:invalid {
     border-color: red;
 }
@@ -99,7 +114,7 @@ fieldset input {
 button {
     background-color: forestgreen;
     width: 250px;
-    height: 100px;
+    height: 75px;
     border-radius: 10px;
     border-color: #E5E7EB;
     border: 1px;
@@ -117,6 +132,7 @@ button {
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 50px;
     padding-left: 50px;
+    margin-bottom: 50px;
 }
 
 a {
